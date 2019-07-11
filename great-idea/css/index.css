@@ -99,18 +99,25 @@ nav div {
 .banner {
 	display: flex;
 	margin-top: 10%;
+	align-items: center;
+}
+
+.banner div {
+	display: flex;
+	align-items: center;
 }
 
 .banner h1 {
 	width: 50%;
 	text-align: center;
-	font-size: 60px;
+	font-size: 60px;	
 }
 
 .banner button {
 	background-color: white;
 	border: 1px solid black;
-	width: 50%; 
+	width: 30%;
+	height: 25px; 
 }
 
 .banner img {
@@ -217,21 +224,20 @@ h2 {
 .service-grid div {
 	display: flex;
 	width: 45%;
-	height: 30%;
+	height: 50%;
 	flex-flow: column wrap;
 	text-align: left;
 	border: 1px solid black;
-	align-content: space-between;
+	justify-content: space-between;
 	align-items: left;
 	background-color: whitesmoke;	
 }
 
-.service-grid h3, p{
-	width: 90%;
-	margin: 2.5%;	
+.mid-div {
+	margin: 2.5% 0;
 }
 
-.service-grid button {
+.service-grid div button {
 	margin-left: 5%;
 	margin-bottom: 5%;
 	height: 2rem;
@@ -244,7 +250,7 @@ h2 {
 
 /* bottom content */
 
-.bottom-content {
+.bottom-content-services {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
@@ -252,7 +258,7 @@ h2 {
 	padding-top: 2.5%;
 	}
 
-.bottom-content div {
+.bottom-content-services div {
 	display: flex;
 	width: 45%;
 	height: 100%;
@@ -264,7 +270,7 @@ h2 {
 	padding: 0;	
 } */
 
-.bottom-content h3, p {
+.bottom-content-services h3, p {
 	width: 97%;
 }
  
